@@ -1,0 +1,46 @@
+@font-face {
+	font-family: "main";
+	src: url('../font/SpaceMono-Regular.ttf') format('opentype');
+}
+
+@font-face {
+	font-family: "two";
+	src: url('../font/Lora-Regular.ttf') format('opentype');
+}
+
+h3 {
+    font-family: "main";
+    text-align: center;
+    font-size: 24px;
+}
+
+p, div {
+    font-family: "two";
+}
+
+body {
+    width: 295px;
+}
+
+p {
+    font-size: 18px;
+}
+
+div {
+    font-size: 40px;
+    text-align: center;
+    line-height: 6px;
+    font-weight: 800;
+}
+
+button {
+    margin-top: 30px;
+    font-family: "two";
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
